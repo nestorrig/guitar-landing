@@ -299,7 +299,7 @@ section {
     background-color: rgba(var(--bg-300-opa), .5) ;
     display: flex;
     /* padding: 16px; */
-    height: 20vh;
+    height: 23vh;
     
     img {
       width: 75%;
@@ -518,7 +518,7 @@ section.contact {
     max-width: 1200px;
     gap: 36px;
     .card img {
-      aspect-ratio: 3/4;
+      aspect-ratio: 1;
     }
     .card-details {
       h3 {
@@ -530,6 +530,11 @@ section.contact {
     }
   }
 
+  .cards.rows {
+    .card {
+      height: 18vh;
+    }
+  } 
 
 
 
