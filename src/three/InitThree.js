@@ -97,6 +97,7 @@ export function initThreeJS() {
           gsap.to(materials.cover, {
             color: new THREE.Color(0x800000),
           });
+          contactRotation = false;
         },
       },
     });
